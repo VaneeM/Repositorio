@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensaje</title>
+    <style>
+   </style>
+<body>
+  <main>
+    <section>
+      <header>
+        <h2 class="titulo">Sumar todos los números del 1 al 100</h2>
+      </header>
+      <br>
+      <article class="formContainer">
+        <form action="./numeros.html">
+          <div>
+            <label for="inicio">Valor Inicial</label>
+            <input id="inicio" value="1" type="text" readonly>
+          </div>
+          <div>
+            <label for="final">Valor Final</label>
+            <input id="final" value="100" type="text" readonly>
+          </div>
+          <div>
+            <label for="resp">Presentar suma:</label>
+            <textarea id="resp" rows="5" cols="40" readonly></textarea>
+          </div>
+          <div>
+            <button type="button" onclick="ejercicio2()">Aceptar</button>
+            <button type="submit">Regresar</button>
+            <button type="reset">Limpiar</button>
+          </div>
+        </form>
+      </article>
+    </section>
+  </main>
+  
+  <script src="/proyecto_js/js/numeros.js"></script>
+</body>
+</html>
