@@ -1,0 +1,19 @@
+function ejercicio2() {
+  const inicio = 1;
+  let r = 0; 
+  const final = 100;
+  let resultado = document.getElementById("resp");
+  resultado.value = ""; 
+
+  // Ciclo que recorre los números del 1 al 100
+  for (let i = inicio; i <= final; i++) {
+    r += i; // Acumula el valor de i en r
+    resultado.value += ${i}; 
+    if (i < final) {
+      resultado.value += " + "; 
+    }
+  }
+
+  resultado.value += ` = ${r}`;
+  console.log(La suma total es: ${r});
+}
